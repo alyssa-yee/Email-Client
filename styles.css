@@ -1,0 +1,221 @@
+
+@media (min-width: 768px){
+.show-and-hide-nav {
+    display: block!important;
+    }
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.row{
+    height: 100%;
+}
+
+#search-bar{
+    position: relative;
+    width: calc(100% - 50px);
+    margin-bottom: 20px;
+    
+}
+/* FIRST COLUMN */
+.first{
+    justify-content: right;
+    background-color: rgb(21, 78, 126);
+}
+
+.profile-welcome{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+.profile-photo{
+    width: 80px; 
+    height: 80px; 
+    border: 0px;
+    margin-top: 10px;
+}
+.welcome-name{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+#compose{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+#btn-compose{
+    color: white;
+    background-color: rgb(0, 50, 78);
+    border-radius: 5px;
+    border: none;
+    width: 195px;
+    height: 45px;
+    font-size: 18px;
+}
+#btn-compose:focus{
+    outline: none;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.menu{
+    display: flex;
+    border: none;
+    background-color:rgb(141, 85, 85);
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100px;
+    background: transparent;
+    color: white;
+    transition: 0.2s
+}
+
+.menu:focus{
+    outline: none;
+}
+
+.menu:hover{
+    color: rgb(68, 183, 255);
+}
+
+/* SECOND COLUMN */
+.second{
+    background-color: rgb(199, 199, 199);
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+#search-bar{
+    margin-top: 20px;
+    border: none;
+    width: 800px;
+    height: 30px;
+    outline: none;
+}
+
+
+.mail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mail{
+    border: none;
+    margin-top: 20px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.mail:hover{
+    -webkit-box-shadow: 7px 6px 14px -2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 7px 6px 14px -2px rgba(0,0,0,0.19);
+    box-shadow: 7px 6px 14px -2px rgba(0,0,0,0.19);
+    background-color: rgb(21, 78, 126);
+    color: white;
+}
+
+.mail-title-menu{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.mail-custom-2{
+    border: none;
+    margin-top: 20px;
+    padding: 30px;
+    transition: 0.3s;
+    -webkit-box-shadow: 7px 6px 14px -2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 7px 6px 14px -2px rgba(0,0,0,0.19);
+    box-shadow: 7px 6px 14px -2px rgba(0,0,0,0.19);
+    background-color: rgb(21, 78, 126);
+    color: white;
+}
+
+.title{
+    display: flex;
+    overflow: hidden;
+}
+
+.time{
+    display: flex;
+    justify-content: left;
+}
+
+.letter-menu{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+/* THIRD COLUMN */
+.third{
+    background: rgb(235, 235, 235);
+}
+
+.third-column-container{
+    padding: 15px;
+}
+.to-from{
+    font-size: 13px;
+    color:rgb(114, 114, 114);
+    padding-left: 50px;
+}
+
+.mail-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.mail-title-letter{
+    font-size: 30px;
+}
+
+.letter{
+    padding: 50px;
+}
+
+
+.reply-box{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.reply-button{
+    width: 70px;
+    margin-top: -45px;
+    margin-right: 20px;
+    z-index: 1;
+    border-color: rgb(21, 78, 126);
+    border-radius: 5px;
+    color:rgb(0, 50, 78);
+    outline: none;
+}
