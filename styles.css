@@ -125,7 +125,13 @@ html,body{
     outline: none;
 }
 
-
+.search-icon{
+    background-color: white;
+    height: 30px;
+    width: 35px;
+    margin-top: 20px;
+    padding: 4px;
+}
 .mail-container{
     display: flex;
     flex-direction: column;
@@ -208,6 +214,17 @@ html,body{
     font-size: 30px;
 }
 
+.btn-icon{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.btn-icon:focus{
+    outline: none;
+}
+.btn-icon:hover{
+    color:rgb(214, 153, 20);
+}
 .letter{
     padding: 50px;
 }
@@ -230,3 +247,5 @@ html,body{
     background-color: white;
     color:rgb(214, 153, 20);
 }
+
+
