@@ -1,5 +1,5 @@
 
-@media (min-width: 768px){
+@media (min-width: 800px){
 .show-and-hide-nav {
     display: block!important;
     }
@@ -70,6 +70,15 @@ html,body{
     outline: none;
 }
 
+#btn-compose:hover{
+    box-shadow: 0px 15px 25px -5px rgba(darken(rgb(211, 168, 77), 40%));
+    transform: scale(1.0);
+}
+
+#btn-compose:active{
+    box-shadow: 0px 4px 8px rgba(darken(rgb(211, 168, 77), 30%));
+    transform: scale(.98);
+}
 .menu-container{
     display: flex;
     flex-direction: column;
@@ -218,6 +227,7 @@ html,body{
     background: transparent;
     border: none;
     outline: none;
+    color:rgb(143, 143, 143);
 }
 .btn-icon:focus{
     outline: none;
@@ -236,7 +246,9 @@ html,body{
     flex-direction: column;
     align-items: flex-end;
 }
-
+#reply:focus{
+    color:rgb(214, 153, 20);
+}
 .reply-button{
     width: 70px;
     margin-top: -45px;
@@ -247,5 +259,34 @@ html,body{
     background-color: white;
     color:rgb(214, 153, 20);
 }
+.reply-button:focus{
+    outline: none;
+}
+.reply-button:hover{
+    background-color:rgb(235, 235, 235);
+    box-shadow: 0px 15px 25px -5px rgba(darken(rgb(211, 168, 77), 40%));
+    transform: scale(1.0);
+}
+.reply-button:active{
+    box-shadow: 0px 4px 8px rgba(darken(rgb(211, 168, 77), 30%));
+    transform: scale(.98);
+}
 
+
+.btn-paperclip{
+    margin-right: auto;
+    margin-top: -25px;
+    z-index: 1;
+    background: transparent;
+    border: none;
+    color:rgb(143, 143, 143);
+    
+}
+.btn-paperclip:focus{
+    outline: none;
+}
+
+.btn-paperclip:hover{
+    color:rgb(214, 153, 20);
+}
 
